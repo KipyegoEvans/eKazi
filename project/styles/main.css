@@ -1,0 +1,198 @@
+body
+{
+	padding: 0;
+	margin: 0;
+}
+.container
+{
+	padding: 20px 0;
+	padding-bottom: 0 !important;
+	margin: 0;
+	background-color: rgb(73, 7, 7); 
+}
+.title
+{
+	text-align: center;
+	border-radius: 3px;
+}
+.title hr
+{
+	width: 30%;
+	border-color:rgb(201, 58, 58);
+}
+.title h2
+{
+	color: white;
+	letter-spacing: 5px;
+}
+.topnav
+{
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+}
+.topnav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.topnav li
+{
+	padding: 5px;	
+	left: 50%;
+	display: block;
+}
+.topnav li a
+{
+	color: rgb(30, 161, 30);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+	transition: .5s;
+	font-size: 17px;
+	width: 60px;
+}
+.topnav li a:hover
+{
+	color: greenyellow;
+	font-size: 18px;
+}
+.content
+{
+	padding: 0;
+	margin: 0;
+	transition-property: hover;
+	transition: 1s ease;
+	background-image: url(bg2.png);
+}
+.content:hover
+{
+	background-position-x: 10px;
+	border-radius: 4px;
+
+}
+.content #employ
+{
+	padding: 30px 0;
+	text-align: center;
+	height: 40%;
+}
+.content #hire
+{
+	padding: 30px 0;
+	text-align: center;
+	height: 50%;
+}
+.content p
+{
+	color: rgb(175, 182, 182);
+	font-size: 20px;
+	line-height: 20px;
+}
+.button-red
+{
+	height: 47px;
+	width: 200px;
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+	opacity: .7;
+	background: none;
+	transition-property: hover;
+	transition: 0.5s;
+	background-color: rgb(5, 42, 46);
+}
+.button-red:hover
+{
+	background-color: white;
+	height: 45px;
+	width: 210px;	
+	border-radius: 5px;
+}
+.content a
+{
+	text-decoration: none !important;
+	font-size: 30px;
+	color: rgb(36, 230, 36);
+}
+.content a:hover
+{
+	color: rgb(9, 74, 80) ;
+}
+.footer
+{
+	background-color: rgb(17, 68, 209);
+	padding: 20px;
+	margin-top: 0 !important;
+	font-size: 20px;
+	color: white;
+}
+.footer hr 
+{
+	border-color: rgb(29, 85, 238);
+}
+.footer h2
+{
+	text-align: center;
+}
+.footer ul
+{
+	list-style: none;
+	line-height: 30px;	
+	letter-spacing: 2px;
+}
+.footer li
+{
+	display: inline-block;
+}
+.footer a:hover
+{
+	transform: rotateX(360deg);
+}
+.copy
+{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	background-color: rgb(28, 34, 53);
+
+}
+@media (min-width:500px){
+	.container
+	{
+		padding: 20px 0;
+		padding-bottom: 0 !important;
+		margin: 0;
+	}
+	.topnav li
+	{
+		padding: 10px;	
+		left: 50%;
+		display: inline;
+		font-size: 20px;
+		border-right: .5px solid rgb(10, 83, 105);
+	}
+	.content
+	{
+		height: 100px;
+		padding: 100px;
+	}
+	.content #employ
+	{
+		float: left;
+		padding-left: 150px;
+		height: 40%;
+	}
+	.content #hire
+	{
+		float: right;
+		padding-right: 150px;
+		height: 50%;
+	}
+	.button-red
+	{
+		opacity: .9;
+	}
+	
+}
